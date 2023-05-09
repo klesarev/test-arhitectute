@@ -1,0 +1,1 @@
+/Users/igorklesarev/IdeaProjects/clear-arch-test/build/classes/kotlin/main/MainKt.class
