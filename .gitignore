@@ -31,3 +31,4 @@ logs/
 .project
 .settings/org.eclipse.buildship.core.prefs
 .vscode
+.gradle

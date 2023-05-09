@@ -8,12 +8,7 @@ class MockDBService: DatabaseService {
     }
 
     override fun selectQuery(queryString: String, closable: Boolean): List<HashMap<String, Any>> {
-        connect("")
-        return if(closable) {
-            closeConnection()
-            listOf(hashMapOf("status" to "active"))
-        } else listOf(hashMapOf("status" to "not_active"))
-
+       return listOf(hashMapOf("status" to "active"))
     }
 
     override fun updateQuery(queryString: String): Boolean {
