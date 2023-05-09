@@ -2,7 +2,6 @@ package framework
 
 import core.loaders.EnvironmentLoader
 import java.util.Properties
-import kotlin.properties.Delegates
 
 class PropertiesLoader: EnvironmentLoader {
 

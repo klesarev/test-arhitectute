@@ -25,6 +25,7 @@
 
 # Project gen files
 build/allure-results/
+build/kotlin/
 logs/
 .classpath
 .project
