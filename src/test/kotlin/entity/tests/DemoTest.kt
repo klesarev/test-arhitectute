@@ -1,15 +1,10 @@
 package entity.tests
 
-import core.BaseTest
-import framework.MockDBService
-import framework.PropertiesLoader
+import framework.BaseTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class DemoTest: BaseTest(
-    settings = PropertiesLoader(),
-    dbService = MockDBService()
-) {
+class DemoTest: BaseTest() {
 
     @Test
     fun `demo test func`(){
@@ -20,7 +15,6 @@ class DemoTest: BaseTest(
     @Test
     fun `get data from DB`(){
         val result = kotlin.run {
-            service.connect("https://sqliteonline.com/")
             service.selectQuery("select * from test")
         }
         assertEquals(result[0]["status"], "active")

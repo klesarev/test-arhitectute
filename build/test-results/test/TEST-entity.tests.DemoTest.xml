@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="entity.tests.DemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-11T18:32:52" hostname="MacBook-Pro-igor.local" time="0.034">
+  <properties/>
+  <testcase name="demo test func" classname="entity.tests.DemoTest" time="0.034"/>
+  <system-out><![CDATA[{debug=false, host=https://sqliteonline.com/}
+]]></system-out>
+  <system-err><![CDATA[июн. 11, 2023 9:32:52 PM framework.gateway.MockDBService connect
+INFO: Connected to https://sqliteonline.com/ with [MockDBService class]
+июн. 11, 2023 9:32:52 PM framework.gateway.MockDBService closeConnection
+INFO: Closed connection with [MockDBService class]
+]]></system-err>
+</testsuite>

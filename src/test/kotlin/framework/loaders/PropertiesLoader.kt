@@ -1,4 +1,4 @@
-package framework
+package framework.loaders
 
 import core.loaders.EnvironmentLoader
 import java.util.Properties
